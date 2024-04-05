@@ -1,0 +1,186 @@
+@media (min-width: 576px) {
+    ...
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    ...
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    ...
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}
+
+body {
+    background-color: #fcf5e7;
+    background-image: url(../media/45-degree-fabric-dark.png);
+
+}
+
+
+
+@font-face {
+    font-family: titlefont;
+    src: url(../media/maintitle.ttf);
+
+}
+
+
+@font-face {
+    font-family: bodytitle;
+    src: url(../media/bodyfont.ttf);
+
+}
+
+@font-face {
+    font-family: subtitle;
+    src: url(../media/subtitle.ttf);
+
+}
+
+
+
+.navbar-custom {
+    background-color: rgba(91, 47, 43, 1);
+
+}
+
+.navbar-brand {
+    width: 12rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar-toggler {
+    border: none;
+    transition: all .3s;
+    font-size: 2rem;
+}
+
+.navbar-toggler-icon {
+    font-size: 2.8rem;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.navbar-text-nav {
+    font-family: titlefont;
+    font-size: 1.7em;
+    color: rgba(239, 234, 227, 1);
+
+}
+
+.body-text {
+    font-family: bodytitle;
+    font-size: 1.5rem;
+
+}
+
+.sub-text {
+    font-family: bodytitle;
+    font-size: 2.3rem;
+
+}
+
+.body-text-1 {
+    font-family: bodytitle;
+    font-size: 1.2rem;
+
+}
+
+.body-text-head {
+    font-family: titlefont;
+    font-size: 3rem;
+    color: rgba(91, 47, 44, 1);
+
+}
+
+.footer-text {
+    font-family: titlefont;
+    font-size 1.5rem;
+}
+
+.button-text {
+    font-family: titlefont;
+    font-size 2rem;
+}
+
+a {
+    color: rgba(239, 234, 227, 1);
+}
+
+a:hover {
+    color: rgba(239, 234, 227, 0.5);
+    transition: 0.3s
+}
+
+#litback {
+    background-image: url(../media/hand.jpg);
+    opacity: 0.8;
+
+}
+
+
+
+.jumbotron {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 !important;
+    height: 100vh;
+}
+
+.divcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-color-custom {
+    background-color: rgba(91, 47, 44, 1)
+}
+
+
+.footer-background-color {
+    background-color: rgba(91, 47, 44, 1);
+
+
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.btn {
+    text-decoration: none;
+
+
+}
+
+.btn:hover {
+    text-decoration: none;
+
+}
+
+.btn-outline-primary {
+    border-color: rgba(91, 47, 44, 1);
+}
+
+
+.btn-outline-primary:hover {
+    background-color: rgba(91, 47, 44, 1);
+    border-color: rgba(91, 47, 44, 1);
+}
+
+button:hover {
+    text-decoration-line: none;
+}
